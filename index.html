@@ -246,10 +246,470 @@ Linear pathways represent single cause–effect chains from activity to measure.
 </div>
 
 <script>
-const LINEAR = [[["L1A"], ["L2A"], ["L3A"], ["L4A"], ["L5A"], ["L6A"], ["L7A"], ["L8A"], ["L9A"]], [["L1A"], ["L2A"], ["L3A"], ["L4A"], ["L5A"], ["L6A"], ["L7A"], ["L8A"], ["L9B"]], [["L1A"], ["L2A"], ["L3A"], ["L4B"], ["L5B"], ["L6A"], ["L7A"], ["L8A"], ["L9A"]], [["L1A"], ["L2A"], ["L3A"], ["L4B"], ["L5B"], ["L6A"], ["L7A"], ["L8A"], ["L9B"]], [["L1A"], ["L2A"], ["L3A"], ["L4B"], ["L5B"], ["L6B"], ["L7B"]], [["L1B"], ["L2B"], ["L3B"], ["L4B"], ["L5B"], ["L6A"], ["L7A"], ["L8A"], ["L9A"]], [["L1B"], ["L2B"], ["L3B"], ["L4B"], ["L5B"], ["L6A"], ["L7A"], ["L8A"], ["L9B"]], [["L1B"], ["L2B"], ["L3B"], ["L4B"], ["L5B"], ["L6B"], ["L7B"]], [["L1B"], ["L2B"], ["L3B"], ["L4C"], ["L5C"], ["L6B"], ["L7B"]]];
-const LINEAR_SUM = [{"number": 1, "label": "Pathway 1", "start": "Development and operation of transport systems", "end": "Deny port entry if NIS is detected", "steps": [{"level": 1, "type": "Activities grouping", "titles": ["Development and operation of transport systems"], "nodes": ["L1A"]}, {"level": 2, "type": "Activity", "titles": ["Shipping transport"], "nodes": ["L2A"]}, {"level": 3, "type": "Activity specification", "titles": ["Passage of ships"], "nodes": ["L3A"]}, {"level": 4, "type": "Pressure", "titles": ["Input or introduction of biological material"], "nodes": ["L4A"]}, {"level": 5, "type": "Pressure specification", "titles": ["Input or spread of non-indigenous species"], "nodes": ["L5A"]}, {"level": 6, "type": "Measures", "titles": ["Adapting transport infrastructures and operations"], "nodes": ["L6A"]}, {"level": 7, "type": "Measure specification", "titles": ["Increase sampling and analysis of ballast water during port inspections"], "nodes": ["L7A"]}, {"level": 8, "type": "Measure specification", "titles": ["In-water inspection of ship's hull"], "nodes": ["L8A"]}, {"level": 9, "type": "Measure specification", "titles": ["Deny port entry if NIS is detected"], "nodes": ["L9A"]}], "nodeCount": 9, "stepCount": 9}, {"number": 2, "label": "Pathway 2", "start": "Development and operation of transport systems", "end": "Requirement of hull free of biofouling", "steps": [{"level": 1, "type": "Activities grouping", "titles": ["Development and operation of transport systems"], "nodes": ["L1A"]}, {"level": 2, "type": "Activity", "titles": ["Shipping transport"], "nodes": ["L2A"]}, {"level": 3, "type": "Activity specification", "titles": ["Passage of ships"], "nodes": ["L3A"]}, {"level": 4, "type": "Pressure", "titles": ["Input or introduction of biological material"], "nodes": ["L4A"]}, {"level": 5, "type": "Pressure specification", "titles": ["Input or spread of non-indigenous species"], "nodes": ["L5A"]}, {"level": 6, "type": "Measures", "titles": ["Adapting transport infrastructures and operations"], "nodes": ["L6A"]}, {"level": 7, "type": "Measure specification", "titles": ["Increase sampling and analysis of ballast water during port inspections"], "nodes": ["L7A"]}, {"level": 8, "type": "Measure specification", "titles": ["In-water inspection of ship's hull"], "nodes": ["L8A"]}, {"level": 9, "type": "Measure specification", "titles": ["Requirement of hull free of biofouling"], "nodes": ["L9B"]}], "nodeCount": 9, "stepCount": 9}, {"number": 3, "label": "Pathway 3", "start": "Development and operation of transport systems", "end": "Deny port entry if NIS is detected", "steps": [{"level": 1, "type": "Activities grouping", "titles": ["Development and operation of transport systems"], "nodes": ["L1A"]}, {"level": 2, "type": "Activity", "titles": ["Shipping transport"], "nodes": ["L2A"]}, {"level": 3, "type": "Activity specification", "titles": ["Passage of ships"], "nodes": ["L3A"]}, {"level": 4, "type": "Pressure", "titles": ["Input of sound"], "nodes": ["L4B"]}, {"level": 5, "type": "Pressure specification", "titles": ["Continuous underwater noise"], "nodes": ["L5B"]}, {"level": 6, "type": "Measures", "titles": ["Adapting transport infrastructures and operations"], "nodes": ["L6A"]}, {"level": 7, "type": "Measure specification", "titles": ["Increase sampling and analysis of ballast water during port inspections"], "nodes": ["L7A"]}, {"level": 8, "type": "Measure specification", "titles": ["In-water inspection of ship's hull"], "nodes": ["L8A"]}, {"level": 9, "type": "Measure specification", "titles": ["Deny port entry if NIS is detected"], "nodes": ["L9A"]}], "nodeCount": 9, "stepCount": 9}, {"number": 4, "label": "Pathway 4", "start": "Development and operation of transport systems", "end": "Requirement of hull free of biofouling", "steps": [{"level": 1, "type": "Activities grouping", "titles": ["Development and operation of transport systems"], "nodes": ["L1A"]}, {"level": 2, "type": "Activity", "titles": ["Shipping transport"], "nodes": ["L2A"]}, {"level": 3, "type": "Activity specification", "titles": ["Passage of ships"], "nodes": ["L3A"]}, {"level": 4, "type": "Pressure", "titles": ["Input of sound"], "nodes": ["L4B"]}, {"level": 5, "type": "Pressure specification", "titles": ["Continuous underwater noise"], "nodes": ["L5B"]}, {"level": 6, "type": "Measures", "titles": ["Adapting transport infrastructures and operations"], "nodes": ["L6A"]}, {"level": 7, "type": "Measure specification", "titles": ["Increase sampling and analysis of ballast water during port inspections"], "nodes": ["L7A"]}, {"level": 8, "type": "Measure specification", "titles": ["In-water inspection of ship's hull"], "nodes": ["L8A"]}, {"level": 9, "type": "Measure specification", "titles": ["Requirement of hull free of biofouling"], "nodes": ["L9B"]}], "nodeCount": 9, "stepCount": 9}, {"number": 5, "label": "Pathway 5", "start": "Development and operation of transport systems", "end": "Temporal and/or spatial speeding restrictions", "steps": [{"level": 1, "type": "Activities grouping", "titles": ["Development and operation of transport systems"], "nodes": ["L1A"]}, {"level": 2, "type": "Activity", "titles": ["Shipping transport"], "nodes": ["L2A"]}, {"level": 3, "type": "Activity specification", "titles": ["Passage of ships"], "nodes": ["L3A"]}, {"level": 4, "type": "Pressure", "titles": ["Input of sound"], "nodes": ["L4B"]}, {"level": 5, "type": "Pressure specification", "titles": ["Continuous underwater noise"], "nodes": ["L5B"]}, {"level": 6, "type": "Measures", "titles": ["Adapting residential, commercial, industrial, recreational infrastructures"], "nodes": ["L6B"]}, {"level": 7, "type": "Measure specification", "titles": ["Temporal and/or spatial speeding restrictions"], "nodes": ["L7B"]}], "nodeCount": 7, "stepCount": 7}, {"number": 6, "label": "Pathway 6", "start": "Tourism and leisure", "end": "Deny port entry if NIS is detected", "steps": [{"level": 1, "type": "Activities grouping", "titles": ["Tourism and leisure"], "nodes": ["L1B"]}, {"level": 2, "type": "Activity", "titles": ["Tourism and leisure activities"], "nodes": ["L2B"]}, {"level": 3, "type": "Activity specification", "titles": ["Recreational boating and yachting"], "nodes": ["L3B"]}, {"level": 4, "type": "Pressure", "titles": ["Input of sound"], "nodes": ["L4B"]}, {"level": 5, "type": "Pressure specification", "titles": ["Continuous underwater noise"], "nodes": ["L5B"]}, {"level": 6, "type": "Measures", "titles": ["Adapting transport infrastructures and operations"], "nodes": ["L6A"]}, {"level": 7, "type": "Measure specification", "titles": ["Increase sampling and analysis of ballast water during port inspections"], "nodes": ["L7A"]}, {"level": 8, "type": "Measure specification", "titles": ["In-water inspection of ship's hull"], "nodes": ["L8A"]}, {"level": 9, "type": "Measure specification", "titles": ["Deny port entry if NIS is detected"], "nodes": ["L9A"]}], "nodeCount": 9, "stepCount": 9}, {"number": 7, "label": "Pathway 7", "start": "Tourism and leisure", "end": "Requirement of hull free of biofouling", "steps": [{"level": 1, "type": "Activities grouping", "titles": ["Tourism and leisure"], "nodes": ["L1B"]}, {"level": 2, "type": "Activity", "titles": ["Tourism and leisure activities"], "nodes": ["L2B"]}, {"level": 3, "type": "Activity specification", "titles": ["Recreational boating and yachting"], "nodes": ["L3B"]}, {"level": 4, "type": "Pressure", "titles": ["Input of sound"], "nodes": ["L4B"]}, {"level": 5, "type": "Pressure specification", "titles": ["Continuous underwater noise"], "nodes": ["L5B"]}, {"level": 6, "type": "Measures", "titles": ["Adapting transport infrastructures and operations"], "nodes": ["L6A"]}, {"level": 7, "type": "Measure specification", "titles": ["Increase sampling and analysis of ballast water during port inspections"], "nodes": ["L7A"]}, {"level": 8, "type": "Measure specification", "titles": ["In-water inspection of ship's hull"], "nodes": ["L8A"]}, {"level": 9, "type": "Measure specification", "titles": ["Requirement of hull free of biofouling"], "nodes": ["L9B"]}], "nodeCount": 9, "stepCount": 9}, {"number": 8, "label": "Pathway 8", "start": "Tourism and leisure", "end": "Temporal and/or spatial speeding restrictions", "steps": [{"level": 1, "type": "Activities grouping", "titles": ["Tourism and leisure"], "nodes": ["L1B"]}, {"level": 2, "type": "Activity", "titles": ["Tourism and leisure activities"], "nodes": ["L2B"]}, {"level": 3, "type": "Activity specification", "titles": ["Recreational boating and yachting"], "nodes": ["L3B"]}, {"level": 4, "type": "Pressure", "titles": ["Input of sound"], "nodes": ["L4B"]}, {"level": 5, "type": "Pressure specification", "titles": ["Continuous underwater noise"], "nodes": ["L5B"]}, {"level": 6, "type": "Measures", "titles": ["Adapting residential, commercial, industrial, recreational infrastructures"], "nodes": ["L6B"]}, {"level": 7, "type": "Measure specification", "titles": ["Temporal and/or spatial speeding restrictions"], "nodes": ["L7B"]}], "nodeCount": 7, "stepCount": 7}, {"number": 9, "label": "Pathway 9", "start": "Tourism and leisure", "end": "Temporal and/or spatial speeding restrictions", "steps": [{"level": 1, "type": "Activities grouping", "titles": ["Tourism and leisure"], "nodes": ["L1B"]}, {"level": 2, "type": "Activity", "titles": ["Tourism and leisure activities"], "nodes": ["L2B"]}, {"level": 3, "type": "Activity specification", "titles": ["Recreational boating and yachting"], "nodes": ["L3B"]}, {"level": 4, "type": "Pressure", "titles": ["Extraction or injury of species"], "nodes": ["L4C"]}, {"level": 5, "type": "Pressure specification", "titles": ["Non-intentional extraction or injury to species - collisions"], "nodes": ["L5C"]}, {"level": 6, "type": "Measures", "titles": ["Adapting residential, commercial, industrial, recreational infrastructures"], "nodes": ["L6B"]}, {"level": 7, "type": "Measure specification", "titles": ["Temporal and/or spatial speeding restrictions"], "nodes": ["L7B"]}], "nodeCount": 7, "stepCount": 7}];
-const CUM = [[["L1A"], ["L2A"], ["L3A"], ["L4A", "L4B"], ["L5A", "L5B"], ["L6A", "L6B"], ["L7A", "L7B"], ["L8A"], ["L9A", "L9B"]], [["L1A"], ["L2A"], ["L3A"], ["L4A", "L4B"], ["L5A", "L5B"], ["L6A", "L6B"], ["L7A", "L7B"], ["L8A"], ["L9A"]], [["L1A"], ["L2A"], ["L3A"], ["L4A", "L4B"], ["L5A", "L5B"], ["L6A", "L6B"], ["L7A", "L7B"], ["L8A"], ["L9B"]], [["L1A"], ["L2A"], ["L3A"], ["L4A", "L4B"], ["L5A", "L5B"], ["L6A"], ["L7A"], ["L8A"], ["L9A", "L9B"]], [["L1A"], ["L2A"], ["L3A"], ["L4A", "L4B"], ["L5A", "L5B"], ["L6A"], ["L7A"], ["L8A"], ["L9A"]], [["L1A"], ["L2A"], ["L3A"], ["L4A", "L4B"], ["L5A", "L5B"], ["L6A"], ["L7A"], ["L8A"], ["L9B"]], [["L1A"], ["L2A"], ["L3A"], ["L4A"], ["L5A"], ["L6A"], ["L7A"], ["L8A"], ["L9A", "L9B"]], [["L1A"], ["L2A"], ["L3A"], ["L4B"], ["L5B"], ["L6A", "L6B"], ["L7A", "L7B"], ["L8A"], ["L9A", "L9B"]], [["L1A"], ["L2A"], ["L3A"], ["L4B"], ["L5B"], ["L6A", "L6B"], ["L7A", "L7B"], ["L8A"], ["L9A"]], [["L1A"], ["L2A"], ["L3A"], ["L4B"], ["L5B"], ["L6A", "L6B"], ["L7A", "L7B"], ["L8A"], ["L9B"]], [["L1A"], ["L2A"], ["L3A"], ["L4B"], ["L5B"], ["L6A"], ["L7A"], ["L8A"], ["L9A", "L9B"]], [["L1B"], ["L2B"], ["L3B"], ["L4B", "L4C"], ["L5B", "L5C"], ["L6B"], ["L7B"]], [["L1B"], ["L2B"], ["L3B"], ["L4B", "L4C"], ["L5B", "L5C"], ["L6A", "L6B"], ["L7A", "L7B"], ["L8A"], ["L9A", "L9B"]], [["L1B"], ["L2B"], ["L3B"], ["L4B", "L4C"], ["L5B", "L5C"], ["L6A", "L6B"], ["L7A", "L7B"], ["L8A"], ["L9A"]], [["L1B"], ["L2B"], ["L3B"], ["L4B", "L4C"], ["L5B", "L5C"], ["L6A", "L6B"], ["L7A", "L7B"], ["L8A"], ["L9B"]], [["L1B"], ["L2B"], ["L3B"], ["L4B"], ["L5B"], ["L6A", "L6B"], ["L7A", "L7B"], ["L8A"], ["L9A", "L9B"]], [["L1B"], ["L2B"], ["L3B"], ["L4B"], ["L5B"], ["L6A", "L6B"], ["L7A", "L7B"], ["L8A"], ["L9A"]], [["L1B"], ["L2B"], ["L3B"], ["L4B"], ["L5B"], ["L6A", "L6B"], ["L7A", "L7B"], ["L8A"], ["L9B"]], [["L1B"], ["L2B"], ["L3B"], ["L4B"], ["L5B"], ["L6A"], ["L7A"], ["L8A"], ["L9A", "L9B"]]];
-const CUM_SUM = [{"number": 1, "label": "Cumulative pathway 1", "start": "Development and operation of transport systems", "end": "Deny port entry if NIS is detected + Requirement of hull free of biofouling", "steps": [{"level": 1, "type": "Activities grouping", "titles": ["Development and operation of transport systems"], "nodes": ["L1A"]}, {"level": 2, "type": "Activity", "titles": ["Shipping transport"], "nodes": ["L2A"]}, {"level": 3, "type": "Activity specification", "titles": ["Passage of ships"], "nodes": ["L3A"]}, {"level": 4, "type": "Pressure", "titles": ["Input or introduction of biological material", "Input of sound"], "nodes": ["L4A", "L4B"]}, {"level": 5, "type": "Pressure specification", "titles": ["Input or spread of non-indigenous species", "Continuous underwater noise"], "nodes": ["L5A", "L5B"]}, {"level": 6, "type": "Measures", "titles": ["Adapting transport infrastructures and operations", "Adapting residential, commercial, industrial, recreational infrastructures"], "nodes": ["L6A", "L6B"]}, {"level": 7, "type": "Measure specification", "titles": ["Increase sampling and analysis of ballast water during port inspections", "Temporal and/or spatial speeding restrictions"], "nodes": ["L7A", "L7B"]}, {"level": 8, "type": "Measure specification", "titles": ["In-water inspection of ship's hull"], "nodes": ["L8A"]}, {"level": 9, "type": "Measure specification", "titles": ["Deny port entry if NIS is detected", "Requirement of hull free of biofouling"], "nodes": ["L9A", "L9B"]}], "nodeCount": 14, "stepCount": 9}, {"number": 2, "label": "Cumulative pathway 2", "start": "Development and operation of transport systems", "end": "Deny port entry if NIS is detected", "steps": [{"level": 1, "type": "Activities grouping", "titles": ["Development and operation of transport systems"], "nodes": ["L1A"]}, {"level": 2, "type": "Activity", "titles": ["Shipping transport"], "nodes": ["L2A"]}, {"level": 3, "type": "Activity specification", "titles": ["Passage of ships"], "nodes": ["L3A"]}, {"level": 4, "type": "Pressure", "titles": ["Input or introduction of biological material", "Input of sound"], "nodes": ["L4A", "L4B"]}, {"level": 5, "type": "Pressure specification", "titles": ["Input or spread of non-indigenous species", "Continuous underwater noise"], "nodes": ["L5A", "L5B"]}, {"level": 6, "type": "Measures", "titles": ["Adapting transport infrastructures and operations", "Adapting residential, commercial, industrial, recreational infrastructures"], "nodes": ["L6A", "L6B"]}, {"level": 7, "type": "Measure specification", "titles": ["Increase sampling and analysis of ballast water during port inspections", "Temporal and/or spatial speeding restrictions"], "nodes": ["L7A", "L7B"]}, {"level": 8, "type": "Measure specification", "titles": ["In-water inspection of ship's hull"], "nodes": ["L8A"]}, {"level": 9, "type": "Measure specification", "titles": ["Deny port entry if NIS is detected"], "nodes": ["L9A"]}], "nodeCount": 13, "stepCount": 9}, {"number": 3, "label": "Cumulative pathway 3", "start": "Development and operation of transport systems", "end": "Requirement of hull free of biofouling", "steps": [{"level": 1, "type": "Activities grouping", "titles": ["Development and operation of transport systems"], "nodes": ["L1A"]}, {"level": 2, "type": "Activity", "titles": ["Shipping transport"], "nodes": ["L2A"]}, {"level": 3, "type": "Activity specification", "titles": ["Passage of ships"], "nodes": ["L3A"]}, {"level": 4, "type": "Pressure", "titles": ["Input or introduction of biological material", "Input of sound"], "nodes": ["L4A", "L4B"]}, {"level": 5, "type": "Pressure specification", "titles": ["Input or spread of non-indigenous species", "Continuous underwater noise"], "nodes": ["L5A", "L5B"]}, {"level": 6, "type": "Measures", "titles": ["Adapting transport infrastructures and operations", "Adapting residential, commercial, industrial, recreational infrastructures"], "nodes": ["L6A", "L6B"]}, {"level": 7, "type": "Measure specification", "titles": ["Increase sampling and analysis of ballast water during port inspections", "Temporal and/or spatial speeding restrictions"], "nodes": ["L7A", "L7B"]}, {"level": 8, "type": "Measure specification", "titles": ["In-water inspection of ship's hull"], "nodes": ["L8A"]}, {"level": 9, "type": "Measure specification", "titles": ["Requirement of hull free of biofouling"], "nodes": ["L9B"]}], "nodeCount": 13, "stepCount": 9}, {"number": 4, "label": "Cumulative pathway 4", "start": "Development and operation of transport systems", "end": "Deny port entry if NIS is detected + Requirement of hull free of biofouling", "steps": [{"level": 1, "type": "Activities grouping", "titles": ["Development and operation of transport systems"], "nodes": ["L1A"]}, {"level": 2, "type": "Activity", "titles": ["Shipping transport"], "nodes": ["L2A"]}, {"level": 3, "type": "Activity specification", "titles": ["Passage of ships"], "nodes": ["L3A"]}, {"level": 4, "type": "Pressure", "titles": ["Input or introduction of biological material", "Input of sound"], "nodes": ["L4A", "L4B"]}, {"level": 5, "type": "Pressure specification", "titles": ["Input or spread of non-indigenous species", "Continuous underwater noise"], "nodes": ["L5A", "L5B"]}, {"level": 6, "type": "Measures", "titles": ["Adapting transport infrastructures and operations"], "nodes": ["L6A"]}, {"level": 7, "type": "Measure specification", "titles": ["Increase sampling and analysis of ballast water during port inspections"], "nodes": ["L7A"]}, {"level": 8, "type": "Measure specification", "titles": ["In-water inspection of ship's hull"], "nodes": ["L8A"]}, {"level": 9, "type": "Measure specification", "titles": ["Deny port entry if NIS is detected", "Requirement of hull free of biofouling"], "nodes": ["L9A", "L9B"]}], "nodeCount": 12, "stepCount": 9}, {"number": 5, "label": "Cumulative pathway 5", "start": "Development and operation of transport systems", "end": "Deny port entry if NIS is detected", "steps": [{"level": 1, "type": "Activities grouping", "titles": ["Development and operation of transport systems"], "nodes": ["L1A"]}, {"level": 2, "type": "Activity", "titles": ["Shipping transport"], "nodes": ["L2A"]}, {"level": 3, "type": "Activity specification", "titles": ["Passage of ships"], "nodes": ["L3A"]}, {"level": 4, "type": "Pressure", "titles": ["Input or introduction of biological material", "Input of sound"], "nodes": ["L4A", "L4B"]}, {"level": 5, "type": "Pressure specification", "titles": ["Input or spread of non-indigenous species", "Continuous underwater noise"], "nodes": ["L5A", "L5B"]}, {"level": 6, "type": "Measures", "titles": ["Adapting transport infrastructures and operations"], "nodes": ["L6A"]}, {"level": 7, "type": "Measure specification", "titles": ["Increase sampling and analysis of ballast water during port inspections"], "nodes": ["L7A"]}, {"level": 8, "type": "Measure specification", "titles": ["In-water inspection of ship's hull"], "nodes": ["L8A"]}, {"level": 9, "type": "Measure specification", "titles": ["Deny port entry if NIS is detected"], "nodes": ["L9A"]}], "nodeCount": 11, "stepCount": 9}, {"number": 6, "label": "Cumulative pathway 6", "start": "Development and operation of transport systems", "end": "Requirement of hull free of biofouling", "steps": [{"level": 1, "type": "Activities grouping", "titles": ["Development and operation of transport systems"], "nodes": ["L1A"]}, {"level": 2, "type": "Activity", "titles": ["Shipping transport"], "nodes": ["L2A"]}, {"level": 3, "type": "Activity specification", "titles": ["Passage of ships"], "nodes": ["L3A"]}, {"level": 4, "type": "Pressure", "titles": ["Input or introduction of biological material", "Input of sound"], "nodes": ["L4A", "L4B"]}, {"level": 5, "type": "Pressure specification", "titles": ["Input or spread of non-indigenous species", "Continuous underwater noise"], "nodes": ["L5A", "L5B"]}, {"level": 6, "type": "Measures", "titles": ["Adapting transport infrastructures and operations"], "nodes": ["L6A"]}, {"level": 7, "type": "Measure specification", "titles": ["Increase sampling and analysis of ballast water during port inspections"], "nodes": ["L7A"]}, {"level": 8, "type": "Measure specification", "titles": ["In-water inspection of ship's hull"], "nodes": ["L8A"]}, {"level": 9, "type": "Measure specification", "titles": ["Requirement of hull free of biofouling"], "nodes": ["L9B"]}], "nodeCount": 11, "stepCount": 9}, {"number": 7, "label": "Cumulative pathway 7", "start": "Development and operation of transport systems", "end": "Deny port entry if NIS is detected + Requirement of hull free of biofouling", "steps": [{"level": 1, "type": "Activities grouping", "titles": ["Development and operation of transport systems"], "nodes": ["L1A"]}, {"level": 2, "type": "Activity", "titles": ["Shipping transport"], "nodes": ["L2A"]}, {"level": 3, "type": "Activity specification", "titles": ["Passage of ships"], "nodes": ["L3A"]}, {"level": 4, "type": "Pressure", "titles": ["Input or introduction of biological material"], "nodes": ["L4A"]}, {"level": 5, "type": "Pressure specification", "titles": ["Input or spread of non-indigenous species"], "nodes": ["L5A"]}, {"level": 6, "type": "Measures", "titles": ["Adapting transport infrastructures and operations"], "nodes": ["L6A"]}, {"level": 7, "type": "Measure specification", "titles": ["Increase sampling and analysis of ballast water during port inspections"], "nodes": ["L7A"]}, {"level": 8, "type": "Measure specification", "titles": ["In-water inspection of ship's hull"], "nodes": ["L8A"]}, {"level": 9, "type": "Measure specification", "titles": ["Deny port entry if NIS is detected", "Requirement of hull free of biofouling"], "nodes": ["L9A", "L9B"]}], "nodeCount": 10, "stepCount": 9}, {"number": 8, "label": "Cumulative pathway 8", "start": "Development and operation of transport systems", "end": "Deny port entry if NIS is detected + Requirement of hull free of biofouling", "steps": [{"level": 1, "type": "Activities grouping", "titles": ["Development and operation of transport systems"], "nodes": ["L1A"]}, {"level": 2, "type": "Activity", "titles": ["Shipping transport"], "nodes": ["L2A"]}, {"level": 3, "type": "Activity specification", "titles": ["Passage of ships"], "nodes": ["L3A"]}, {"level": 4, "type": "Pressure", "titles": ["Input of sound"], "nodes": ["L4B"]}, {"level": 5, "type": "Pressure specification", "titles": ["Continuous underwater noise"], "nodes": ["L5B"]}, {"level": 6, "type": "Measures", "titles": ["Adapting transport infrastructures and operations", "Adapting residential, commercial, industrial, recreational infrastructures"], "nodes": ["L6A", "L6B"]}, {"level": 7, "type": "Measure specification", "titles": ["Increase sampling and analysis of ballast water during port inspections", "Temporal and/or spatial speeding restrictions"], "nodes": ["L7A", "L7B"]}, {"level": 8, "type": "Measure specification", "titles": ["In-water inspection of ship's hull"], "nodes": ["L8A"]}, {"level": 9, "type": "Measure specification", "titles": ["Deny port entry if NIS is detected", "Requirement of hull free of biofouling"], "nodes": ["L9A", "L9B"]}], "nodeCount": 12, "stepCount": 9}, {"number": 9, "label": "Cumulative pathway 9", "start": "Development and operation of transport systems", "end": "Deny port entry if NIS is detected", "steps": [{"level": 1, "type": "Activities grouping", "titles": ["Development and operation of transport systems"], "nodes": ["L1A"]}, {"level": 2, "type": "Activity", "titles": ["Shipping transport"], "nodes": ["L2A"]}, {"level": 3, "type": "Activity specification", "titles": ["Passage of ships"], "nodes": ["L3A"]}, {"level": 4, "type": "Pressure", "titles": ["Input of sound"], "nodes": ["L4B"]}, {"level": 5, "type": "Pressure specification", "titles": ["Continuous underwater noise"], "nodes": ["L5B"]}, {"level": 6, "type": "Measures", "titles": ["Adapting transport infrastructures and operations", "Adapting residential, commercial, industrial, recreational infrastructures"], "nodes": ["L6A", "L6B"]}, {"level": 7, "type": "Measure specification", "titles": ["Increase sampling and analysis of ballast water during port inspections", "Temporal and/or spatial speeding restrictions"], "nodes": ["L7A", "L7B"]}, {"level": 8, "type": "Measure specification", "titles": ["In-water inspection of ship's hull"], "nodes": ["L8A"]}, {"level": 9, "type": "Measure specification", "titles": ["Deny port entry if NIS is detected"], "nodes": ["L9A"]}], "nodeCount": 11, "stepCount": 9}, {"number": 10, "label": "Cumulative pathway 10", "start": "Development and operation of transport systems", "end": "Requirement of hull free of biofouling", "steps": [{"level": 1, "type": "Activities grouping", "titles": ["Development and operation of transport systems"], "nodes": ["L1A"]}, {"level": 2, "type": "Activity", "titles": ["Shipping transport"], "nodes": ["L2A"]}, {"level": 3, "type": "Activity specification", "titles": ["Passage of ships"], "nodes": ["L3A"]}, {"level": 4, "type": "Pressure", "titles": ["Input of sound"], "nodes": ["L4B"]}, {"level": 5, "type": "Pressure specification", "titles": ["Continuous underwater noise"], "nodes": ["L5B"]}, {"level": 6, "type": "Measures", "titles": ["Adapting transport infrastructures and operations", "Adapting residential, commercial, industrial, recreational infrastructures"], "nodes": ["L6A", "L6B"]}, {"level": 7, "type": "Measure specification", "titles": ["Increase sampling and analysis of ballast water during port inspections", "Temporal and/or spatial speeding restrictions"], "nodes": ["L7A", "L7B"]}, {"level": 8, "type": "Measure specification", "titles": ["In-water inspection of ship's hull"], "nodes": ["L8A"]}, {"level": 9, "type": "Measure specification", "titles": ["Requirement of hull free of biofouling"], "nodes": ["L9B"]}], "nodeCount": 11, "stepCount": 9}, {"number": 11, "label": "Cumulative pathway 11", "start": "Development and operation of transport systems", "end": "Deny port entry if NIS is detected + Requirement of hull free of biofouling", "steps": [{"level": 1, "type": "Activities grouping", "titles": ["Development and operation of transport systems"], "nodes": ["L1A"]}, {"level": 2, "type": "Activity", "titles": ["Shipping transport"], "nodes": ["L2A"]}, {"level": 3, "type": "Activity specification", "titles": ["Passage of ships"], "nodes": ["L3A"]}, {"level": 4, "type": "Pressure", "titles": ["Input of sound"], "nodes": ["L4B"]}, {"level": 5, "type": "Pressure specification", "titles": ["Continuous underwater noise"], "nodes": ["L5B"]}, {"level": 6, "type": "Measures", "titles": ["Adapting transport infrastructures and operations"], "nodes": ["L6A"]}, {"level": 7, "type": "Measure specification", "titles": ["Increase sampling and analysis of ballast water during port inspections"], "nodes": ["L7A"]}, {"level": 8, "type": "Measure specification", "titles": ["In-water inspection of ship's hull"], "nodes": ["L8A"]}, {"level": 9, "type": "Measure specification", "titles": ["Deny port entry if NIS is detected", "Requirement of hull free of biofouling"], "nodes": ["L9A", "L9B"]}], "nodeCount": 10, "stepCount": 9}, {"number": 12, "label": "Cumulative pathway 12", "start": "Tourism and leisure", "end": "Temporal and/or spatial speeding restrictions", "steps": [{"level": 1, "type": "Activities grouping", "titles": ["Tourism and leisure"], "nodes": ["L1B"]}, {"level": 2, "type": "Activity", "titles": ["Tourism and leisure activities"], "nodes": ["L2B"]}, {"level": 3, "type": "Activity specification", "titles": ["Recreational boating and yachting"], "nodes": ["L3B"]}, {"level": 4, "type": "Pressure", "titles": ["Input of sound", "Extraction or injury of species"], "nodes": ["L4B", "L4C"]}, {"level": 5, "type": "Pressure specification", "titles": ["Continuous underwater noise", "Non-intentional extraction or injury to species - collisions"], "nodes": ["L5B", "L5C"]}, {"level": 6, "type": "Measures", "titles": ["Adapting residential, commercial, industrial, recreational infrastructures"], "nodes": ["L6B"]}, {"level": 7, "type": "Measure specification", "titles": ["Temporal and/or spatial speeding restrictions"], "nodes": ["L7B"]}], "nodeCount": 9, "stepCount": 7}, {"number": 13, "label": "Cumulative pathway 13", "start": "Tourism and leisure", "end": "Deny port entry if NIS is detected + Requirement of hull free of biofouling", "steps": [{"level": 1, "type": "Activities grouping", "titles": ["Tourism and leisure"], "nodes": ["L1B"]}, {"level": 2, "type": "Activity", "titles": ["Tourism and leisure activities"], "nodes": ["L2B"]}, {"level": 3, "type": "Activity specification", "titles": ["Recreational boating and yachting"], "nodes": ["L3B"]}, {"level": 4, "type": "Pressure", "titles": ["Input of sound", "Extraction or injury of species"], "nodes": ["L4B", "L4C"]}, {"level": 5, "type": "Pressure specification", "titles": ["Continuous underwater noise", "Non-intentional extraction or injury to species - collisions"], "nodes": ["L5B", "L5C"]}, {"level": 6, "type": "Measures", "titles": ["Adapting transport infrastructures and operations", "Adapting residential, commercial, industrial, recreational infrastructures"], "nodes": ["L6A", "L6B"]}, {"level": 7, "type": "Measure specification", "titles": ["Increase sampling and analysis of ballast water during port inspections", "Temporal and/or spatial speeding restrictions"], "nodes": ["L7A", "L7B"]}, {"level": 8, "type": "Measure specification", "titles": ["In-water inspection of ship's hull"], "nodes": ["L8A"]}, {"level": 9, "type": "Measure specification", "titles": ["Deny port entry if NIS is detected", "Requirement of hull free of biofouling"], "nodes": ["L9A", "L9B"]}], "nodeCount": 14, "stepCount": 9}, {"number": 14, "label": "Cumulative pathway 14", "start": "Tourism and leisure", "end": "Deny port entry if NIS is detected", "steps": [{"level": 1, "type": "Activities grouping", "titles": ["Tourism and leisure"], "nodes": ["L1B"]}, {"level": 2, "type": "Activity", "titles": ["Tourism and leisure activities"], "nodes": ["L2B"]}, {"level": 3, "type": "Activity specification", "titles": ["Recreational boating and yachting"], "nodes": ["L3B"]}, {"level": 4, "type": "Pressure", "titles": ["Input of sound", "Extraction or injury of species"], "nodes": ["L4B", "L4C"]}, {"level": 5, "type": "Pressure specification", "titles": ["Continuous underwater noise", "Non-intentional extraction or injury to species - collisions"], "nodes": ["L5B", "L5C"]}, {"level": 6, "type": "Measures", "titles": ["Adapting transport infrastructures and operations", "Adapting residential, commercial, industrial, recreational infrastructures"], "nodes": ["L6A", "L6B"]}, {"level": 7, "type": "Measure specification", "titles": ["Increase sampling and analysis of ballast water during port inspections", "Temporal and/or spatial speeding restrictions"], "nodes": ["L7A", "L7B"]}, {"level": 8, "type": "Measure specification", "titles": ["In-water inspection of ship's hull"], "nodes": ["L8A"]}, {"level": 9, "type": "Measure specification", "titles": ["Deny port entry if NIS is detected"], "nodes": ["L9A"]}], "nodeCount": 13, "stepCount": 9}, {"number": 15, "label": "Cumulative pathway 15", "start": "Tourism and leisure", "end": "Requirement of hull free of biofouling", "steps": [{"level": 1, "type": "Activities grouping", "titles": ["Tourism and leisure"], "nodes": ["L1B"]}, {"level": 2, "type": "Activity", "titles": ["Tourism and leisure activities"], "nodes": ["L2B"]}, {"level": 3, "type": "Activity specification", "titles": ["Recreational boating and yachting"], "nodes": ["L3B"]}, {"level": 4, "type": "Pressure", "titles": ["Input of sound", "Extraction or injury of species"], "nodes": ["L4B", "L4C"]}, {"level": 5, "type": "Pressure specification", "titles": ["Continuous underwater noise", "Non-intentional extraction or injury to species - collisions"], "nodes": ["L5B", "L5C"]}, {"level": 6, "type": "Measures", "titles": ["Adapting transport infrastructures and operations", "Adapting residential, commercial, industrial, recreational infrastructures"], "nodes": ["L6A", "L6B"]}, {"level": 7, "type": "Measure specification", "titles": ["Increase sampling and analysis of ballast water during port inspections", "Temporal and/or spatial speeding restrictions"], "nodes": ["L7A", "L7B"]}, {"level": 8, "type": "Measure specification", "titles": ["In-water inspection of ship's hull"], "nodes": ["L8A"]}, {"level": 9, "type": "Measure specification", "titles": ["Requirement of hull free of biofouling"], "nodes": ["L9B"]}], "nodeCount": 13, "stepCount": 9}, {"number": 16, "label": "Cumulative pathway 16", "start": "Tourism and leisure", "end": "Deny port entry if NIS is detected + Requirement of hull free of biofouling", "steps": [{"level": 1, "type": "Activities grouping", "titles": ["Tourism and leisure"], "nodes": ["L1B"]}, {"level": 2, "type": "Activity", "titles": ["Tourism and leisure activities"], "nodes": ["L2B"]}, {"level": 3, "type": "Activity specification", "titles": ["Recreational boating and yachting"], "nodes": ["L3B"]}, {"level": 4, "type": "Pressure", "titles": ["Input of sound"], "nodes": ["L4B"]}, {"level": 5, "type": "Pressure specification", "titles": ["Continuous underwater noise"], "nodes": ["L5B"]}, {"level": 6, "type": "Measures", "titles": ["Adapting transport infrastructures and operations", "Adapting residential, commercial, industrial, recreational infrastructures"], "nodes": ["L6A", "L6B"]}, {"level": 7, "type": "Measure specification", "titles": ["Increase sampling and analysis of ballast water during port inspections", "Temporal and/or spatial speeding restrictions"], "nodes": ["L7A", "L7B"]}, {"level": 8, "type": "Measure specification", "titles": ["In-water inspection of ship's hull"], "nodes": ["L8A"]}, {"level": 9, "type": "Measure specification", "titles": ["Deny port entry if NIS is detected", "Requirement of hull free of biofouling"], "nodes": ["L9A", "L9B"]}], "nodeCount": 12, "stepCount": 9}, {"number": 17, "label": "Cumulative pathway 17", "start": "Tourism and leisure", "end": "Deny port entry if NIS is detected", "steps": [{"level": 1, "type": "Activities grouping", "titles": ["Tourism and leisure"], "nodes": ["L1B"]}, {"level": 2, "type": "Activity", "titles": ["Tourism and leisure activities"], "nodes": ["L2B"]}, {"level": 3, "type": "Activity specification", "titles": ["Recreational boating and yachting"], "nodes": ["L3B"]}, {"level": 4, "type": "Pressure", "titles": ["Input of sound"], "nodes": ["L4B"]}, {"level": 5, "type": "Pressure specification", "titles": ["Continuous underwater noise"], "nodes": ["L5B"]}, {"level": 6, "type": "Measures", "titles": ["Adapting transport infrastructures and operations", "Adapting residential, commercial, industrial, recreational infrastructures"], "nodes": ["L6A", "L6B"]}, {"level": 7, "type": "Measure specification", "titles": ["Increase sampling and analysis of ballast water during port inspections", "Temporal and/or spatial speeding restrictions"], "nodes": ["L7A", "L7B"]}, {"level": 8, "type": "Measure specification", "titles": ["In-water inspection of ship's hull"], "nodes": ["L8A"]}, {"level": 9, "type": "Measure specification", "titles": ["Deny port entry if NIS is detected"], "nodes": ["L9A"]}], "nodeCount": 11, "stepCount": 9}, {"number": 18, "label": "Cumulative pathway 18", "start": "Tourism and leisure", "end": "Requirement of hull free of biofouling", "steps": [{"level": 1, "type": "Activities grouping", "titles": ["Tourism and leisure"], "nodes": ["L1B"]}, {"level": 2, "type": "Activity", "titles": ["Tourism and leisure activities"], "nodes": ["L2B"]}, {"level": 3, "type": "Activity specification", "titles": ["Recreational boating and yachting"], "nodes": ["L3B"]}, {"level": 4, "type": "Pressure", "titles": ["Input of sound"], "nodes": ["L4B"]}, {"level": 5, "type": "Pressure specification", "titles": ["Continuous underwater noise"], "nodes": ["L5B"]}, {"level": 6, "type": "Measures", "titles": ["Adapting transport infrastructures and operations", "Adapting residential, commercial, industrial, recreational infrastructures"], "nodes": ["L6A", "L6B"]}, {"level": 7, "type": "Measure specification", "titles": ["Increase sampling and analysis of ballast water during port inspections", "Temporal and/or spatial speeding restrictions"], "nodes": ["L7A", "L7B"]}, {"level": 8, "type": "Measure specification", "titles": ["In-water inspection of ship's hull"], "nodes": ["L8A"]}, {"level": 9, "type": "Measure specification", "titles": ["Requirement of hull free of biofouling"], "nodes": ["L9B"]}], "nodeCount": 11, "stepCount": 9}, {"number": 19, "label": "Cumulative pathway 19", "start": "Tourism and leisure", "end": "Deny port entry if NIS is detected + Requirement of hull free of biofouling", "steps": [{"level": 1, "type": "Activities grouping", "titles": ["Tourism and leisure"], "nodes": ["L1B"]}, {"level": 2, "type": "Activity", "titles": ["Tourism and leisure activities"], "nodes": ["L2B"]}, {"level": 3, "type": "Activity specification", "titles": ["Recreational boating and yachting"], "nodes": ["L3B"]}, {"level": 4, "type": "Pressure", "titles": ["Input of sound"], "nodes": ["L4B"]}, {"level": 5, "type": "Pressure specification", "titles": ["Continuous underwater noise"], "nodes": ["L5B"]}, {"level": 6, "type": "Measures", "titles": ["Adapting transport infrastructures and operations"], "nodes": ["L6A"]}, {"level": 7, "type": "Measure specification", "titles": ["Increase sampling and analysis of ballast water during port inspections"], "nodes": ["L7A"]}, {"level": 8, "type": "Measure specification", "titles": ["In-water inspection of ship's hull"], "nodes": ["L8A"]}, {"level": 9, "type": "Measure specification", "titles": ["Deny port entry if NIS is detected", "Requirement of hull free of biofouling"], "nodes": ["L9A", "L9B"]}], "nodeCount": 10, "stepCount": 9}];
+const LINEAR = [
+  [["L1A"],["L2A"],["L3A"],["L4A"],["L5A"],["L6A"],["L7A"],["L8A"],["L9A"]],
+  [["L1A"],["L2A"],["L3A"],["L4A"],["L5A"],["L6A"],["L7A"],["L8A"],["L9B"]],
+  [["L1A"],["L2A"],["L3A"],["L4B"],["L5B"],["L6A"],["L7B"]],
+  [["L1A"],["L2A"],["L3A"],["L4C"],["L5C"],["L6A"],["L7B"]],
+  [["L1B"],["L2B"],["L3B"],["L4A"],["L5A"],["L6B"]],
+  [["L1B"],["L2B"],["L3B"],["L4B"],["L5B"],["L6B"],["L7B"]],
+  [["L1B"],["L2B"],["L3B"],["L4C"],["L5C"],["L6B"],["L7B"]]
+];
+const LINEAR_SUM = [
+
+{
+number:1,
+label:"Pathway 1",
+start:"Development and operation of transport systems",
+end:"Deny port entry if NIS is detected",
+steps:[
+{level:1,type:"Activities grouping",titles:["Development and operation of transport systems"],nodes:["L1A"]},
+{level:2,type:"Activity",titles:["Shipping transport"],nodes:["L2A"]},
+{level:3,type:"Activity specification",titles:["Passage of ships"],nodes:["L3A"]},
+{level:4,type:"Pressure",titles:["Input or introduction of biological material"],nodes:["L4A"]},
+{level:5,type:"Pressure specification",titles:["Input or spread of non-indigenous species"],nodes:["L5A"]},
+{level:6,type:"Measures",titles:["Adapting transport infrastructures and operations"],nodes:["L6A"]},
+{level:7,type:"Measure specification",titles:["Increase sampling and analysis of ballast water during port inspections"],nodes:["L7A"]},
+{level:8,type:"Measure specification",titles:["In-water inspection of ship's hull"],nodes:["L8A"]},
+{level:9,type:"Measure specification",titles:["Deny port entry if NIS is detected"],nodes:["L9A"]}
+],
+nodeCount:9,
+stepCount:9
+},
+
+{
+number:2,
+label:"Pathway 2",
+start:"Development and operation of transport systems",
+end:"Requirement of hull free of biofouling",
+steps:[
+{level:1,type:"Activities grouping",titles:["Development and operation of transport systems"],nodes:["L1A"]},
+{level:2,type:"Activity",titles:["Shipping transport"],nodes:["L2A"]},
+{level:3,type:"Activity specification",titles:["Passage of ships"],nodes:["L3A"]},
+{level:4,type:"Pressure",titles:["Input or introduction of biological material"],nodes:["L4A"]},
+{level:5,type:"Pressure specification",titles:["Input or spread of non-indigenous species"],nodes:["L5A"]},
+{level:6,type:"Measures",titles:["Adapting transport infrastructures and operations"],nodes:["L6A"]},
+{level:7,type:"Measure specification",titles:["Increase sampling and analysis of ballast water during port inspections"],nodes:["L7A"]},
+{level:8,type:"Measure specification",titles:["In-water inspection of ship's hull"],nodes:["L8A"]},
+{level:9,type:"Measure specification",titles:["Requirement of hull free of biofouling"],nodes:["L9B"]}
+],
+nodeCount:9,
+stepCount:9
+},
+
+{
+number:3,
+label:"Pathway 3",
+start:"Development and operation of transport systems",
+end:"Temporal and/or spatial speeding restrictions",
+steps:[
+{level:1,type:"Activities grouping",titles:["Development and operation of transport systems"],nodes:["L1A"]},
+{level:2,type:"Activity",titles:["Shipping transport"],nodes:["L2A"]},
+{level:3,type:"Activity specification",titles:["Passage of ships"],nodes:["L3A"]},
+{level:4,type:"Pressure",titles:["Input of sound"],nodes:["L4B"]},
+{level:5,type:"Pressure specification",titles:["Continuous underwater noise"],nodes:["L5B"]},
+{level:6,type:"Measures",titles:["Adapting transport infrastructures and operations"],nodes:["L6A"]},
+{level:7,type:"Measure specification",titles:["Temporal and/or spatial speeding restrictions"],nodes:["L7B"]}
+],
+nodeCount:7,
+stepCount:7
+},
+
+{
+number:4,
+label:"Pathway 4",
+start:"Development and operation of transport systems",
+end:"Temporal and/or spatial speeding restrictions",
+steps:[
+{level:1,type:"Activities grouping",titles:["Development and operation of transport systems"],nodes:["L1A"]},
+{level:2,type:"Activity",titles:["Shipping transport"],nodes:["L2A"]},
+{level:3,type:"Activity specification",titles:["Passage of ships"],nodes:["L3A"]},
+{level:4,type:"Pressure",titles:["Extraction or injury of species"],nodes:["L4C"]},
+{level:5,type:"Pressure specification",titles:["Non-intentional extraction or injury to species - collisions"],nodes:["L5C"]},
+{level:6,type:"Measures",titles:["Adapting transport infrastructures and operations"],nodes:["L6A"]},
+{level:7,type:"Measure specification",titles:["Temporal and/or spatial speeding restrictions"],nodes:["L7B"]}
+],
+nodeCount:7,
+stepCount:7
+},
+
+{
+number:5,
+label:"Pathway 5",
+start:"Tourism and leisure",
+end:"Adapting residential, commercial, industrial, recreational infrastructures operations and activities",
+steps:[
+{level:1,type:"Activities grouping",titles:["Tourism and leisure"],nodes:["L1B"]},
+{level:2,type:"Activity",titles:["Tourism and leisure activities"],nodes:["L2B"]},
+{level:3,type:"Activity specification",titles:["Recreational boating and yachting"],nodes:["L3B"]},
+{level:4,type:"Pressure",titles:["Input or introduction of biological material"],nodes:["L4A"]},
+{level:5,type:"Pressure specification",titles:["Input or spread of non-indigenous species"],nodes:["L5A"]},
+{level:6,type:"Measures",titles:["Adapting residential, commercial, industrial, recreational infrastructures operations and activities"],nodes:["L6B"]}
+],
+nodeCount:6,
+stepCount:6
+},
+
+{
+number:6,
+label:"Pathway 6",
+start:"Tourism and leisure",
+end:"Temporal and/or spatial speeding restrictions",
+steps:[
+{level:1,type:"Activities grouping",titles:["Tourism and leisure"],nodes:["L1B"]},
+{level:2,type:"Activity",titles:["Tourism and leisure activities"],nodes:["L2B"]},
+{level:3,type:"Activity specification",titles:["Recreational boating and yachting"],nodes:["L3B"]},
+{level:4,type:"Pressure",titles:["Input of sound"],nodes:["L4B"]},
+{level:5,type:"Pressure specification",titles:["Continuous underwater noise"],nodes:["L5B"]},
+{level:6,type:"Measures",titles:["Adapting residential, commercial, industrial, recreational infrastructures operations and activities"],nodes:["L6B"]},
+{level:7,type:"Measure specification",titles:["Temporal and/or spatial speeding restrictions"],nodes:["L7B"]}
+],
+nodeCount:7,
+stepCount:7
+},
+
+{
+number:7,
+label:"Pathway 7",
+start:"Tourism and leisure",
+end:"Temporal and/or spatial speeding restrictions",
+steps:[
+{level:1,type:"Activities grouping",titles:["Tourism and leisure"],nodes:["L1B"]},
+{level:2,type:"Activity",titles:["Tourism and leisure activities"],nodes:["L2B"]},
+{level:3,type:"Activity specification",titles:["Recreational boating and yachting"],nodes:["L3B"]},
+{level:4,type:"Pressure",titles:["Extraction or injury of species"],nodes:["L4C"]},
+{level:5,type:"Pressure specification",titles:["Non-intentional extraction or injury to species - collisions"],nodes:["L5C"]},
+{level:6,type:"Measures",titles:["Adapting residential, commercial, industrial, recreational infrastructures operations and activities"],nodes:["L6B"]},
+{level:7,type:"Measure specification",titles:["Temporal and/or spatial speeding restrictions"],nodes:["L7B"]}
+],
+nodeCount:7,
+stepCount:7
+}
+
+];
+const CUM = [
+[["L1A"],["L2A"],["L3A"],["L4A","L4B","L4C"]],
+[["L1A"],["L2A"],["L3A"],["L4A","L4B","L4C"],["L5A","L5B","L5C"]],
+[["L1A"],["L2A"],["L3A"],["L4A","L4B","L4C"],["L5A","L5B","L5C"],["L6A"]],
+[["L1A"],["L2A"],["L3A"],["L4A"],["L5A"],["L6A"],["L7A"],["L8A"],["L9A","L9B"]],
+[["L1A"],["L2A"],["L3A"],["L4B","L4C"],["L5B","L5C"],["L6A"],["L7B"]],
+[["L1B"],["L2B"],["L3B"],["L4A","L4B","L4C"]],
+[["L1B"],["L2B"],["L3B"],["L4A","L4B","L4C"],["L5A","L5B","L5C"]],
+[["L1B"],["L2B"],["L3B"],["L4A","L4B","L4C"],["L5A","L5B","L5C"],["L6B"]],
+[["L1B"],["L2B"],["L3B"],["L4B","L4C"],["L5B","L5C"],["L6B"],["L7B"]],
+[["L1A","L1B"],["L2A","L2B"],["L3A","L3B"],["L4A","L4B","L4C"]],
+[["L1A","L1B"],["L2A","L2B"],["L3A","L3B"],["L4A","L4B","L4C"],["L5A","L5B","L5C"]],
+[["L1A","L1B"],["L2A","L2B"],["L3A","L3B"],["L4A","L4B","L4C"],["L5A","L5B","L5C"],["L6A","L6B"]],
+[["L1A","L1B"],["L2A","L2B"],["L3A","L3B"],["L4B","L4C"],["L5B","L5C"],["L6A","L6B"],["L7B"]]
+];
+const CUM_SUM = [
+
+{
+number:1,
+label:"Cumulative pathway 1",
+start:"Development and operation of transport systems",
+end:"Multiple pressures",
+steps:[
+{level:1,type:"Activities grouping",titles:["Development and operation of transport systems"],nodes:["L1A"]},
+{level:2,type:"Activity",titles:["Shipping transport"],nodes:["L2A"]},
+{level:3,type:"Activity specification",titles:["Passage of ships"],nodes:["L3A"]},
+{level:4,type:"Pressure",titles:[
+"Input or introduction of biological material",
+"Input of sound",
+"Extraction or injury of species"
+],nodes:["L4A","L4B","L4C"]}
+],
+nodeCount:6,
+stepCount:4
+},
+
+{
+number:2,
+label:"Cumulative pathway 2",
+start:"Development and operation of transport systems",
+end:"Multiple pressure specifications",
+steps:[
+{level:1,type:"Activities grouping",titles:["Development and operation of transport systems"],nodes:["L1A"]},
+{level:2,type:"Activity",titles:["Shipping transport"],nodes:["L2A"]},
+{level:3,type:"Activity specification",titles:["Passage of ships"],nodes:["L3A"]},
+{level:4,type:"Pressure",titles:[
+"Input or introduction of biological material",
+"Input of sound",
+"Extraction or injury of species"
+],nodes:["L4A","L4B","L4C"]},
+{level:5,type:"Pressure specification",titles:[
+"Input or spread of non-indigenous species",
+"Continuous underwater noise",
+"Non-intentional extraction or injury to species - collisions"
+],nodes:["L5A","L5B","L5C"]}
+],
+nodeCount:9,
+stepCount:5
+},
+
+{
+number:3,
+label:"Cumulative pathway 3",
+start:"Development and operation of transport systems",
+end:"Adapting transport infrastructures and operations",
+steps:[
+{level:1,type:"Activities grouping",titles:["Development and operation of transport systems"],nodes:["L1A"]},
+{level:2,type:"Activity",titles:["Shipping transport"],nodes:["L2A"]},
+{level:3,type:"Activity specification",titles:["Passage of ships"],nodes:["L3A"]},
+{level:4,type:"Pressure",titles:[
+"Input or introduction of biological material",
+"Input of sound",
+"Extraction or injury of species"
+],nodes:["L4A","L4B","L4C"]},
+{level:5,type:"Pressure specification",titles:[
+"Input or spread of non-indigenous species",
+"Continuous underwater noise",
+"Non-intentional extraction or injury to species - collisions"
+],nodes:["L5A","L5B","L5C"]},
+{level:6,type:"Measures",titles:[
+"Adapting transport infrastructures and operations"
+],nodes:["L6A"]}
+],
+nodeCount:10,
+stepCount:6
+},
+
+{
+number:4,
+label:"Cumulative pathway 4",
+start:"Development and operation of transport systems",
+end:"Deny port entry + Requirement of hull free of biofouling",
+steps:[
+{level:1,type:"Activities grouping",titles:["Development and operation of transport systems"],nodes:["L1A"]},
+{level:2,type:"Activity",titles:["Shipping transport"],nodes:["L2A"]},
+{level:3,type:"Activity specification",titles:["Passage of ships"],nodes:["L3A"]},
+{level:4,type:"Pressure",titles:["Input or introduction of biological material"],nodes:["L4A"]},
+{level:5,type:"Pressure specification",titles:["Input or spread of non-indigenous species"],nodes:["L5A"]},
+{level:6,type:"Measures",titles:["Adapting transport infrastructures and operations"],nodes:["L6A"]},
+{level:7,type:"Measure specification",titles:["Increase sampling and analysis of ballast water during port inspections"],nodes:["L7A"]},
+{level:8,type:"Measure specification",titles:["In-water inspection of ship's hull"],nodes:["L8A"]},
+{level:9,type:"Measure specification",titles:[
+"Deny port entry if NIS is detected",
+"Requirement of hull free of biofouling"
+],nodes:["L9A","L9B"]}
+],
+nodeCount:10,
+stepCount:9
+},
+
+{
+number:5,
+label:"Cumulative pathway 5",
+start:"Development and operation of transport systems",
+end:"Temporal and/or spatial speeding restrictions",
+steps:[
+{level:1,type:"Activities grouping",titles:["Development and operation of transport systems"],nodes:["L1A"]},
+{level:2,type:"Activity",titles:["Shipping transport"],nodes:["L2A"]},
+{level:3,type:"Activity specification",titles:["Passage of ships"],nodes:["L3A"]},
+{level:4,type:"Pressure",titles:[
+"Input of sound",
+"Extraction or injury of species"
+],nodes:["L4B","L4C"]},
+{level:5,type:"Pressure specification",titles:[
+"Continuous underwater noise",
+"Non-intentional extraction or injury to species - collisions"
+],nodes:["L5B","L5C"]},
+{level:6,type:"Measures",titles:["Adapting transport infrastructures and operations"],nodes:["L6A"]},
+{level:7,type:"Measure specification",titles:["Temporal and/or spatial speeding restrictions"],nodes:["L7B"]}
+],
+nodeCount:8,
+stepCount:7
+},
+
+{
+number:6,
+label:"Cumulative pathway 6",
+start:"Tourism and leisure",
+end:"Multiple pressures",
+steps:[
+{level:1,type:"Activities grouping",titles:["Tourism and leisure"],nodes:["L1B"]},
+{level:2,type:"Activity",titles:["Tourism and leisure activities"],nodes:["L2B"]},
+{level:3,type:"Activity specification",titles:["Recreational boating and yachting"],nodes:["L3B"]},
+{level:4,type:"Pressure",titles:[
+"Input or introduction of biological material",
+"Input of sound",
+"Extraction or injury of species"
+],nodes:["L4A","L4B","L4C"]}
+],
+nodeCount:6,
+stepCount:4
+},
+
+{
+number:7,
+label:"Cumulative pathway 7",
+start:"Tourism and leisure",
+end:"Multiple pressure specifications",
+steps:[
+{level:1,type:"Activities grouping",titles:["Tourism and leisure"],nodes:["L1B"]},
+{level:2,type:"Activity",titles:["Tourism and leisure activities"],nodes:["L2B"]},
+{level:3,type:"Activity specification",titles:["Recreational boating and yachting"],nodes:["L3B"]},
+{level:4,type:"Pressure",titles:[
+"Input or introduction of biological material",
+"Input of sound",
+"Extraction or injury of species"
+],nodes:["L4A","L4B","L4C"]},
+{level:5,type:"Pressure specification",titles:[
+"Input or spread of non-indigenous species",
+"Continuous underwater noise",
+"Non-intentional extraction or injury to species - collisions"
+],nodes:["L5A","L5B","L5C"]}
+],
+nodeCount:9,
+stepCount:5
+},
+
+{
+number:8,
+label:"Cumulative pathway 8",
+start:"Tourism and leisure",
+end:"Adapting residential infrastructures",
+steps:[
+{level:1,type:"Activities grouping",titles:["Tourism and leisure"],nodes:["L1B"]},
+{level:2,type:"Activity",titles:["Tourism and leisure activities"],nodes:["L2B"]},
+{level:3,type:"Activity specification",titles:["Recreational boating and yachting"],nodes:["L3B"]},
+{level:4,type:"Pressure",titles:[
+"Input or introduction of biological material",
+"Input of sound",
+"Extraction or injury of species"
+],nodes:["L4A","L4B","L4C"]},
+{level:5,type:"Pressure specification",titles:[
+"Input or spread of non-indigenous species",
+"Continuous underwater noise",
+"Non-intentional extraction or injury to species - collisions"
+],nodes:["L5A","L5B","L5C"]},
+{level:6,type:"Measures",titles:[
+"Adapting residential, commercial, industrial, recreational infrastructures operations and activities"
+],nodes:["L6B"]}
+],
+nodeCount:10,
+stepCount:6
+},
+
+{
+number:9,
+label:"Cumulative pathway 9",
+start:"Tourism and leisure",
+end:"Temporal and/or spatial speeding restrictions",
+steps:[
+{level:1,type:"Activities grouping",titles:["Tourism and leisure"],nodes:["L1B"]},
+{level:2,type:"Activity",titles:["Tourism and leisure activities"],nodes:["L2B"]},
+{level:3,type:"Activity specification",titles:["Recreational boating and yachting"],nodes:["L3B"]},
+{level:4,type:"Pressure",titles:["Input of sound","Extraction or injury of species"],nodes:["L4B","L4C"]},
+{level:5,type:"Pressure specification",titles:[
+"Continuous underwater noise",
+"Non-intentional extraction or injury to species - collisions"
+],nodes:["L5B","L5C"]},
+{level:6,type:"Measures",titles:[
+"Adapting residential, commercial, industrial, recreational infrastructures operations and activities"
+],nodes:["L6B"]},
+{level:7,type:"Measure specification",titles:["Temporal and/or spatial speeding restrictions"],nodes:["L7B"]}
+],
+nodeCount:8,
+stepCount:7
+},
+
+{
+number:10,
+label:"Cumulative pathway 10",
+start:"Transport systems + Tourism and leisure",
+end:"Multiple pressures",
+steps:[
+{level:1,type:"Activities grouping",titles:["Development and operation of transport systems","Tourism and leisure"],nodes:["L1A","L1B"]},
+{level:2,type:"Activity",titles:["Shipping transport","Tourism and leisure activities"],nodes:["L2A","L2B"]},
+{level:3,type:"Activity specification",titles:["Passage of ships","Recreational boating and yachting"],nodes:["L3A","L3B"]},
+{level:4,type:"Pressure",titles:[
+"Input or introduction of biological material",
+"Input of sound",
+"Extraction or injury of species"
+],nodes:["L4A","L4B","L4C"]}
+],
+nodeCount:9,
+stepCount:4
+},
+
+{
+number:11,
+label:"Cumulative pathway 11",
+start:"Transport systems + Tourism and leisure",
+end:"Multiple pressure specifications",
+steps:[
+{level:1,type:"Activities grouping",titles:["Development and operation of transport systems","Tourism and leisure"],nodes:["L1A","L1B"]},
+{level:2,type:"Activity",titles:["Shipping transport","Tourism and leisure activities"],nodes:["L2A","L2B"]},
+{level:3,type:"Activity specification",titles:["Passage of ships","Recreational boating and yachting"],nodes:["L3A","L3B"]},
+{level:4,type:"Pressure",titles:[
+"Input or introduction of biological material",
+"Input of sound",
+"Extraction or injury of species"
+],nodes:["L4A","L4B","L4C"]},
+{level:5,type:"Pressure specification",titles:[
+"Input or spread of non-indigenous species",
+"Continuous underwater noise",
+"Non-intentional extraction or injury to species - collisions"
+],nodes:["L5A","L5B","L5C"]}
+],
+nodeCount:12,
+stepCount:5
+},
+
+{
+number:12,
+label:"Cumulative pathway 12",
+start:"Transport systems + Tourism and leisure",
+end:"Adapting infrastructures",
+steps:[
+{level:1,type:"Activities grouping",titles:["Development and operation of transport systems","Tourism and leisure"],nodes:["L1A","L1B"]},
+{level:2,type:"Activity",titles:["Shipping transport","Tourism and leisure activities"],nodes:["L2A","L2B"]},
+{level:3,type:"Activity specification",titles:["Passage of ships","Recreational boating and yachting"],nodes:["L3A","L3B"]},
+{level:4,type:"Pressure",titles:[
+"Input or introduction of biological material",
+"Input of sound",
+"Extraction or injury of species"
+],nodes:["L4A","L4B","L4C"]},
+{level:5,type:"Pressure specification",titles:[
+"Input or spread of non-indigenous species",
+"Continuous underwater noise",
+"Non-intentional extraction or injury to species - collisions"
+],nodes:["L5A","L5B","L5C"]},
+{level:6,type:"Measures",titles:[
+"Adapting transport infrastructures and operations",
+"Adapting residential, commercial, industrial, recreational infrastructures operations and activities"
+],nodes:["L6A","L6B"]}
+],
+nodeCount:14,
+stepCount:6
+},
+
+{
+number:13,
+label:"Cumulative pathway 13",
+start:"Transport systems + Tourism and leisure",
+end:"Temporal and/or spatial speeding restrictions",
+steps:[
+{level:1,type:"Activities grouping",titles:["Development and operation of transport systems","Tourism and leisure"],nodes:["L1A","L1B"]},
+{level:2,type:"Activity",titles:["Shipping transport","Tourism and leisure activities"],nodes:["L2A","L2B"]},
+{level:3,type:"Activity specification",titles:["Passage of ships","Recreational boating and yachting"],nodes:["L3A","L3B"]},
+{level:4,type:"Pressure",titles:["Input of sound","Extraction or injury of species"],nodes:["L4B","L4C"]},
+{level:5,type:"Pressure specification",titles:[
+"Continuous underwater noise",
+"Non-intentional extraction or injury to species - collisions"
+],nodes:["L5B","L5C"]},
+{level:6,type:"Measures",titles:[
+"Adapting transport infrastructures and operations",
+"Adapting residential, commercial, industrial, recreational infrastructures operations and activities"
+],nodes:["L6A","L6B"]},
+{level:7,type:"Measure specification",titles:["Temporal and/or spatial speeding restrictions"],nodes:["L7B"]}
+],
+nodeCount:12,
+stepCount:7
+}
+
+];
 
 const nodes = [...document.querySelectorAll(".node")];
 const svg = document.getElementById("diagram");
