@@ -397,19 +397,33 @@ window.addEventListener("load", function(){
     return txt.length>n ? txt.slice(0,n) + "…" : txt;
   }
 
+  
   LINEAR_SUM.forEach((p,i)=>{
     const opt=document.createElement("option");
     opt.value=i;
-    opt.textContent = "Linear " + (i+1) + ": " + short(p.start) + " → " + short(p.end);
+
+    const pressure = p.steps.find(s => s.level === 4);
+    const pressureTxt = pressure ? pressure.titles.join(" + ") : "";
+
+    opt.textContent = "Linear " + (i+1) + ": " +
+      short(p.start) + " → " + short(pressureTxt) + " → " + short(p.end);
+
     linearSel.appendChild(opt);
   });
 
   CUM_SUM.forEach((p,i)=>{
     const opt=document.createElement("option");
     opt.value=i;
-    opt.textContent = "Cumulative " + (i+1) + ": " + short(p.start) + " → " + short(p.end);
+
+    const pressure = p.steps.find(s => s.level === 4);
+    const pressureTxt = pressure ? pressure.titles.join(" + ") : "";
+
+    opt.textContent = "Cumulative " + (i+1) + ": " +
+      short(p.start) + " → " + short(pressureTxt) + " → " + short(p.end);
+
     cumSel.appendChild(opt);
   });
+
 
   linearSel.addEventListener("change", function(){
     const i=parseInt(this.value);
