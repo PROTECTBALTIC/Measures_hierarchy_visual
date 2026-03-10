@@ -710,7 +710,27 @@ stepCount:7
 }
 
 ];
+const REMOVE_CUMULATIVE = new Set([0, 1, 5, 6, 9, 10]); // removes 1,2,6,7,10,11
 
+const ORIGINAL_CUM = CUM;
+const ORIGINAL_CUM_SUM = CUM_SUM;
+
+const CUM_RENUMBERED = ORIGINAL_CUM.filter((_, i) => !REMOVE_CUMULATIVE.has(i));
+
+const CUM_SUM_RENUMBERED = ORIGINAL_CUM_SUM
+  .filter((_, i) => !REMOVE_CUMULATIVE.has(i))
+  .map((item, i) => ({
+    ...item,
+    number: i + 1,
+    label: `Cumulative pathway ${i + 1}`
+  }));
+
+// overwrite the originals so the rest of the file keeps working unchanged
+CUM.length = 0;
+CUM.push(...CUM_RENUMBERED);
+
+CUM_SUM.length = 0;
+CUM_SUM.push(...CUM_SUM_RENUMBERED);
 const nodes = [...document.querySelectorAll(".node")];
 const svg = document.getElementById("diagram");
 const buttons = document.getElementById("buttons");
